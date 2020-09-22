@@ -17,7 +17,7 @@ public class SpringJenkinsApplication {
 		logger.info(":::::App is started::::");
 	}
 	public static void main(String[] args) {
-		logger.info(":::::App is executing:::: after @PostConstruct");
+		logger.info(":::::App is executing::::after @PostConstruct");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
